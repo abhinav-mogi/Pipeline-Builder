@@ -21,7 +21,7 @@ export const Toolbar = () => {
     <aside className="toolbar">
       <div className="toolbar-header">
         <span className="toolbar-logo">⚡</span>
-        <span className="toolbar-brand">VectorShift</span>
+        <span className="toolbar-brand">Pipeline Builder</span>
       </div>
       <p className="toolbar-hint">Drag nodes onto the canvas</p>
       <div className="toolbar-nodes">

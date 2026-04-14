@@ -9,7 +9,7 @@ export const SubmitButton = () => {
 }
 export const submitPipeline = async (nodes, edges) => {
   try {
-    const response = await fetch('http://localhost:8000/pipelines/parse', {
+    const response = await fetch('https://pipeline-builder-smo6.onrender.com/pipelines/parse', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ nodes, edges }),
